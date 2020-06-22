@@ -1,0 +1,23 @@
+# 告诉EditorConfig插件，这是根文件，不用继续往上查找
+root = true
+
+# 匹配全部文件
+[*]
+# 结尾换行符，可选"lf"、"cr"、"crlf"
+end_of_line = lf
+# 设置字符集
+charset = utf-8
+# 缩进大小
+indent_size = 2
+# 缩进风格，可选"space"、"tab"
+indent_style = space
+# 末尾插入新行
+insert_final_newline = true
+# 删除行尾空格
+trim_trailing_whitespace = true
+
+[*.java]
+indent_size = 4
+
+[*.xml]
+indent_size = 4
